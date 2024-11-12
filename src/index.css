@@ -66,3 +66,13 @@ button:focus-visible {
     background-color: #f9f9f9;
   }
 }
+
+ul {
+  padding: 0;
+  display: flex;
+  list-style: none;
+}
+
+li {
+  margin-right: 16px;
+}

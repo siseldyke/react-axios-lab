@@ -1,5 +1,6 @@
 import axios from "axios"
 import { useState, useEffect } from 'react'
+import { Link } from 'react-router-dom'
 
  function StarshipList(){
     
@@ -19,9 +20,12 @@ getStarships()
     return(
         <div>
           {starships.map((starship , index) =>(
+                <Link to={`/starships/${index}`}>
+                    
             <h1 key = {index}>
                 name: {starship.name}
             </h1>
+            </Link>
           )
         )}  
         </div>
