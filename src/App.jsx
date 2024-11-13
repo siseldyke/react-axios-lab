@@ -8,8 +8,8 @@ import StarshipPage from './components/StarshipPage';
 import PlanetPage from './components/PlanetPage';
 import CharacterList from './components/CharacterList';
 import CharacterPage from './components/CharacterPage';
-
-
+import FilmList from './components/FilmList';
+import FilmPage from './components/FilmPage';
 
 
 
@@ -28,7 +28,8 @@ return (
         <Route path='/planets/:id' element={<PlanetPage/>}/>
         <Route path='/people/' element={<CharacterList/>}/>
         <Route path='/people/:id' element={<CharacterPage/>}/>
-
+        <Route path='/films/' element={<FilmList/>}/>
+        <Route path='/films/:id' element={<FilmPage/>}/>
 
     </Routes>
 </>
