@@ -20,9 +20,11 @@ getPlanets()
     return(
         <div>
           {planets.map((planet , index) =>(
+            <Link to={`/planets/${index}`}>
             <h1 key = {index}>
                 name: {planet.name}
             </h1>
+            </Link>
           )
         )}  
         </div>

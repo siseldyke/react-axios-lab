@@ -5,6 +5,8 @@ import StarshipList from './components/StarshipList'
 import NavBar from './components/Navbar';
 import PlanetList from './components/PlanetList';
 import StarshipPage from './components/StarshipPage';
+import PlanetPage from './components/PlanetPage';
+
 
 const App = () => {
 
@@ -18,7 +20,7 @@ return (
         <Route path="/starships" element={<StarshipList  />}/>
         <Route path='/starships/:id' element={<StarshipPage />}/>
         <Route path='/planets'  element={<PlanetList/>}/>
-
+        <Route path='/planets/:id' element={<PlanetPage/>}/>
 
     </Routes>
 </>

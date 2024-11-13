@@ -23,7 +23,7 @@ function StarshipPage(){
         <li>Length {starshipDetails.length}</li>
         <li>Cargo Capacity: {starshipDetails.cargo_capacity}</li>
         <li>Class {starshipDetails.starship_class}</li>
-
+    <Link to='/starships'>Return to Starships</Link>
     </div>
 
     )
