@@ -13,7 +13,7 @@ const NavBar = () => {
             <Link to='/planets'>Planets</Link>
           </li>
           <li>
-            <Link to='/characters'>Characters</Link>
+            <Link to='/people'>Characters</Link>
           </li>
           <li>
             <Link to='/films'>Films</Link>

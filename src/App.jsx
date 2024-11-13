@@ -6,6 +6,11 @@ import NavBar from './components/Navbar';
 import PlanetList from './components/PlanetList';
 import StarshipPage from './components/StarshipPage';
 import PlanetPage from './components/PlanetPage';
+import CharacterList from './components/CharacterList';
+import CharacterPage from './components/CharacterPage';
+
+
+
 
 
 const App = () => {
@@ -21,6 +26,9 @@ return (
         <Route path='/starships/:id' element={<StarshipPage />}/>
         <Route path='/planets'  element={<PlanetList/>}/>
         <Route path='/planets/:id' element={<PlanetPage/>}/>
+        <Route path='/people/' element={<CharacterList/>}/>
+        <Route path='/people/:id' element={<CharacterPage/>}/>
+
 
     </Routes>
 </>
